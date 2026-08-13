@@ -1,5 +1,5 @@
 // ============================================================
-//  CV page — screen-only enhancements.
+//  CV page screen-only enhancements.
 //  None of this touches the PDF: the print stylesheet strips
 //  the background and hides the button, so exports stay clean.
 // ============================================================
@@ -19,13 +19,7 @@
         document.body.appendChild(button);
     }
 
-    // ---- 2. Time-aware ambient gutter gradient -----------------
-    // JS decides the PALETTE from the viewer's local clock; CSS
-    // handles the slow DRIFT and pauses it for reduced-motion.
-    // Bright + warm at midday, muted at the edges, deep + cool
-    // at night. Colours are interpolated between the anchors
-    // below, so it shifts continuously through the day rather
-    // than snapping between a few fixed looks.
+
     var ANCHORS = [
         { hour: 0,  stops: ["#171d33", "#241f3d", "#2b1c34"] }, // deep night
         { hour: 6,  stops: ["#f3c6a2", "#eab4c2", "#ccd4ef"] }, // dawn

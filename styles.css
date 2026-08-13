@@ -30,7 +30,7 @@ body {
     min-height: 100vh;
     padding: 16px 0;
 
-    /* time-aware ambient wash — lives in the gutter, behind the sheet */
+
     background: linear-gradient(135deg, var(--g1), var(--g2), var(--g3));
     background-size: 220% 220%;
     animation: gutterDrift 120s ease-in-out infinite;
@@ -50,8 +50,8 @@ body {
 }
 
 .page {
-    width: 210mm;          /* A4 on desktop... */
-    max-width: 100%;       /* ...but shrinks on narrow screens */
+    width: 210mm;          
+    max-width: 100%;       
     min-height: 297mm;
     margin: 0 auto;
     background: var(--paper);
@@ -291,8 +291,7 @@ section {
     box-shadow: 2px 2px 0 var(--ink);
 }
 
-/* ---------- responsive: stack to one column on narrow screens ---------- */
-/* Scoped to `screen` so it never affects the printed/PDF layout. */
+
 @media screen and (max-width: 640px) {
     .page {
         margin: 0;
@@ -311,7 +310,6 @@ section {
         min-width: 0;
     }
 
-    /* left divider becomes a top divider once stacked */
     .side {
         border-left: none;
         padding-left: 0;
@@ -349,7 +347,7 @@ section {
 @media print {
     html,
     body {
-        background: #fff;    /* strip the gradient for the PDF */
+        background: #fff;    
     }
 
     body {
