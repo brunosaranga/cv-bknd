@@ -14,17 +14,21 @@
 
         <header>
             <div class="name">Bruno Saranga</div>
-            <div class="role">Backend Developer <b>Python · Django · DRF</b> — security-minded</div>
+            <div class="role">
+                <span id="role-title">Backend Developer</span>
+                <b>Python · Django · DRF</b>
+                <span id="role-suffix">— security-minded</span>
+            </div>
             <div class="contact">
                 <!-- HOSTED version: phone intentionally omitted so it isn't scraped.
                      Keep the phone in your send/print master and export the PDF from that. -->
                 <span>brunoeasaranga@gmail.com</span>
-                <span>Maputo, Mozambique · open to remote</span>
+                <span id="contact-location">Maputo, Mozambique · open to remote</span>
                 <span>github.com/brunosaranga</span>
             </div>
         </header>
 
-        <p class="summary">
+        <p class="summary" id="summary-text">
             Backend developer working in Python, Django and Django REST Framework, with working
             application-security knowledge from hands-on labs and bug-bounty coursework. Completed
             Meta's Back-End Developer Professional Certificate while building an API-security SaaS solo,
@@ -36,44 +40,44 @@
 
             <!-- ============ MAIN COLUMN ============ -->
             <div class="main">
-                <div class="eyebrow">Experience &amp; Projects</div>
+                <div class="eyebrow" id="exp-eyebrow">Experience &amp; Projects</div>
 
                 <div class="flagship">
-                    <h3>API Security Scanner — SaaS <span class="tag">IN DEVELOPMENT</span></h3>
-                    <p>Solo-building a tool that scans web APIs for security misconfigurations and
+                    <h3><span id="flagship-title">API Security Scanner — SaaS</span> <span class="tag" id="flagship-tag">IN DEVELOPMENT</span></h3>
+                    <p id="flagship-intro">Solo-building a tool that scans web APIs for security misconfigurations and
                     common vulnerabilities. Own the full stack:</p>
                     <ul>
-                        <li><b>Django / DRF backend</b> with a custom email-based user model and JWT
+                        <li id="flagship-li-1"><b>Django / DRF backend</b> with a custom email-based user model and JWT
                         authentication.</li>
-                        <li><b>Real-time scan streaming</b> over Server-Sent Events; durable per-scan records
+                        <li id="flagship-li-2"><b>Real-time scan streaming</b> over Server-Sent Events; durable per-scan records
                         and worst-finding risk scoring.</li>
-                        <li><b>React / Vite frontend</b> with a custom design system; payment flow via a
+                        <li id="flagship-li-3"><b>React / Vite frontend</b> with a custom design system; payment flow via a
                         merchant-of-record integration.</li>
                     </ul>
                 </div>
 
                 <section>
                     <div class="entry">
-                        <h3>Independent Security Researcher &amp; Lab Operator <span class="meta">2024 — present</span></h3>
+                        <h3><span id="entry1-title">Independent Security Researcher &amp; Lab Operator</span> <span class="meta" id="entry1-meta">2024 — present</span></h3>
                         <ul>
-                            <li>Architect virtualized lab environments that simulate enterprise-grade
+                            <li id="entry1-li-1">Architect virtualized lab environments that simulate enterprise-grade
                             network threats to practise finding data-leak vulnerabilities.</li>
-                            <li>Apply bug-bounty methodology in controlled environments — recon,
+                            <li id="entry1-li-2">Apply bug-bounty methodology in controlled environments — recon,
                             information gathering, exploitation and documentation.</li>
-                            <li>Write custom Python scripts to automate repetitive reconnaissance and
+                            <li id="entry1-li-3">Write custom Python scripts to automate repetitive reconnaissance and
                             checks.</li>
                         </ul>
                     </div>
 
                     <div class="entry">
-                        <h3>Project Director @ HBS, Lda <span class="meta">2024 — present</span></h3>
-                        <p>Project Director at Human Business Solutions, a Mozambican recruitment
+                        <h3><span id="entry2-title">Project Director @ HBS, Lda</span> <span class="meta" id="entry2-meta">2024 — present</span></h3>
+                        <p id="entry2-p">Project Director at Human Business Solutions, a Mozambican recruitment
                         startup — coordinating projects, teams and delivery.</p>
                     </div>
 
                     <div class="entry">
-                        <h3>Music Production &amp; Sound Engineering <span class="meta">2016 — present</span></h3>
-                        <p>A decade producing, engineering and touring internationally under the name
+                        <h3><span id="entry3-title">Music Production &amp; Sound Engineering</span> <span class="meta" id="entry3-meta">2016 — present</span></h3>
+                        <p id="entry3-p">A decade producing, engineering and touring internationally under the name
                         PIZZAWPINEAPPLES. Consistent evidence of leading projects and shipping polished
                         work under tight deadlines. Full portfolio available on request.</p>
                     </div>
@@ -83,48 +87,51 @@
             <!-- ============ SIDE COLUMN ============ -->
             <div class="side">
                 <section>
-                    <div class="eyebrow">Skills</div>
+                    <div class="eyebrow" id="skills-eyebrow">Skills</div>
                     <div class="skillgroup">
-                        <div class="label">Backend</div>
-                        <div class="list">Python, Django, Django REST Framework, REST API design, JWT auth, relational databases</div>
+                        <div class="label" id="skill-backend-label">Backend</div>
+                        <div class="list" id="skill-backend-list">Python, Django, Django REST Framework, REST API design, JWT auth, relational databases</div>
                     </div>
                     <div class="skillgroup">
-                        <div class="label">Frontend</div>
-                        <div class="list">React, Vite, JavaScript, HTML/CSS</div>
+                        <div class="label" id="skill-frontend-label">Frontend</div>
+                        <div class="list" id="skill-frontend-list">React, Vite, JavaScript, HTML/CSS</div>
                     </div>
                     <div class="skillgroup">
-                        <div class="label">Security</div>
-                        <div class="list">Bug-bounty methodology, recon &amp; exploitation basics, personal pentest labs (VMs, tooling)</div>
+                        <div class="label" id="skill-security-label">Security</div>
+                        <div class="list" id="skill-security-list">Bug-bounty methodology, recon &amp; exploitation basics, personal pentest labs (VMs, tooling)</div>
                     </div>
                     <div class="skillgroup">
-                        <div class="label">Tools &amp; Infra</div>
-                        <div class="list">Git, Linux, networking fundamentals, AWS (foundational)</div>
+                        <div class="label" id="skill-tools-label">Tools &amp; Infra</div>
+                        <div class="list" id="skill-tools-list">Git, Linux, networking fundamentals, AWS (foundational)</div>
                     </div>
                 </section>
 
                 <section>
-                    <div class="eyebrow">Certifications &amp; Learning</div>
+                    <div class="eyebrow" id="certs-eyebrow">Certifications &amp; Learning</div>
                     <div class="cert">
-                        <strong><a href="https://coursera.org/verify/professional-cert/9X6SL212EAVR" target="_blank" rel="noopener">Meta Back-End Developer</a></strong>
-                        <span class="st">Meta Back-End Developer Professional Certificate · 9 courses · Sep 2026</span>
+                        <strong><a class="cert-link" href="https://coursera.org/verify/professional-cert/9X6SL212EAVR" target="_blank" rel="noopener">Meta Back-End Developer</a></strong>
+                        <span class="st" id="cert1-status">Professional Certificate · 9 courses · Sep 2026</span>
                     </div>
                     <div class="cert">
                         <strong>AWS Certified Cloud Practitioner</strong>
-                        <span class="st">Foundational · Feb 2026</span>
+                        <span class="st" id="cert2-status">Foundational · Feb 2026</span>
                     </div>
                     <div class="cert">
-                        <strong>TCM Security — hands-on training</strong>
+                        <strong id="cert3-title">TCM Security — hands-on training</strong>
                         <span class="st">Practical Bug Bounty · Python 101 for Hackers · Linux 101 · 2025</span>
                     </div>
                     <div class="cert">
                         <strong>Google Cybersecurity</strong>
-                        <span class="st">In progress</span>
+                        <span class="st" id="cert4-status">In progress</span>
                     </div>
                 </section>
 
                 <section>
-                    <div class="eyebrow">Languages</div>
-                    <div class="lang"><b>English</b> — fluent<br><b>Portuguese</b> — fluent</div>
+                    <div class="eyebrow" id="lang-eyebrow">Languages</div>
+                    <div class="lang">
+                        <span id="lang-english-full"><b>English</b> — fluent</span><br>
+                        <span id="lang-portuguese-full"><b>Portuguese</b> — fluent</span>
+                    </div>
                 </section>
             </div>
 

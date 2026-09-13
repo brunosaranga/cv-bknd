@@ -209,7 +209,7 @@ section {
 }
 
 .flagship h3 {
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .tag {
@@ -259,6 +259,18 @@ section {
     margin-top: 1px;
 }
 
+.cert-link {
+    color: #c200a2;
+}
+
+.cert-link:visited {
+    color: #c26700;
+}
+
+.cert-link:hover {
+    color: #0027c2;
+}
+
 .lang {
     font-size: 11.5px;
 }
@@ -289,6 +301,45 @@ section {
 .print-btn:active {
     transform: translate(2px, 2px);
     box-shadow: 2px 2px 0 var(--ink);
+}
+
+/* ---------- language toggle button (screen only) ---------- */
+.lang-toggle {
+    position: fixed;
+    top: 18px;
+    left: 18px;
+    z-index: 10;
+    display: flex;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    background: var(--paper);
+    border: 2px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+}
+
+.lang-toggle button {
+    font: inherit;
+    letter-spacing: inherit;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: transparent;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.lang-toggle button + button {
+    border-left: 2px solid var(--ink);
+}
+
+.lang-toggle button.active {
+    background: var(--accent);
+}
+
+.lang-toggle button:active {
+    transform: translate(2px, 2px);
 }
 
 
@@ -362,6 +413,10 @@ section {
     }
 
     .print-btn {
+        display: none;
+    }
+
+    .lang-toggle {
         display: none;
     }
 
