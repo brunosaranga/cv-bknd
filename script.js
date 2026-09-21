@@ -97,6 +97,38 @@
             en: "2024 — present",
             pt: "2024 — atual"
         },
+
+
+        "wristhugger-title": {
+            en: "OAuth2 Authorization Server",
+            pt: "Servidor de Autorização OAuth2"
+        },
+        "wristhugger-tag": {
+            en: "BACKEND COMPLETE",
+            pt: "BACKEND CONCLUÍDO"
+        },
+        "wristhugger-intro": {
+            en: "Django, built from primitives (no OAuth library)",
+            pt: "Django, construído a partir de primitivas (sem biblioteca OAuth)"
+        },
+        "wristhugger-li-1": {
+            en: "<b>PKCE-protected authorization code flow</b> RS256-signed JWTs, no callback needed to verify tokens",
+            pt: "<b>Fluxo de código de autorização protegido por PKCE</b> JWTs assinados com RS256, sem necessidade de callback para verificar tokens",
+            html: true
+        },
+        "wristhugger-li-2": {
+            en: "<b>Refresh token rotation with reuse detection</b> replaying a rotated token revokes the full downstream chain",
+            pt: "<b>Rotação de refresh tokens com deteção de reutilização</b> reutilizar um token já rodado revoga toda a cadeia posterior",
+            html: true
+        },
+        "wristhugger-li-3": {
+            en: "<b>Verified end to end in live testing</b> including rejected replay and reuse attempts",
+            pt: "<b>Verificado de ponta a ponta em testes reais</b> incluindo tentativas de replay e reutilização rejeitadas",
+            html: true
+        },
+        
+
+
         "entry2-p": {
             en: "Project Director at Human Business Solutions, a Mozambican recruitment startup — coordinating projects, teams and delivery.",
             pt: "Diretor de Projetos na Human Business Solutions, uma startup moçambicana de recrutamento — coordenando projetos, equipas e entregas."
