@@ -90,8 +90,8 @@
             pt: "Escreve scripts Python personalizados para automatizar tarefas repetitivas de reconhecimento e verificação."
         },
         "entry2-title": {
-            en: "Project Director @ HBS, Lda",
-            pt: "Diretor de Projetos @ HBS, Lda"
+            en: "Colaborator @ HBS, Lda",
+            pt: "Colaborador @ HBS, Lda"
         },
         "entry2-meta": {
             en: "2024 — present",
@@ -130,8 +130,8 @@
 
 
         "entry2-p": {
-            en: "Project Director at Human Business Solutions, a Mozambican recruitment startup — coordinating projects, teams and delivery.",
-            pt: "Diretor de Projetos na Human Business Solutions, uma startup moçambicana de recrutamento — coordenando projetos, equipas e entregas."
+            en: "Colaborator in IT department at Human Business Solutions, a Mozambican recruitment startup — coordinating projects, teams and delivery.",
+            pt: "Colaborador no departamento de TI na Human Business Solutions, uma startup moçambicana de recrutamento — coordenando projetos, equipas e entregas."
         },
         "entry3-title": {
             en: "Music Production & Sound Engineering",
