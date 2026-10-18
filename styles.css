@@ -208,8 +208,38 @@ section {
     background: var(--paper);
 }
 
+/* flagship text sized to match .entry — it was falling back to the
+   browser-default 16px, with bullets hanging outside the box */
 .flagship h3 {
-    /* font-size: 14px; */
+    font-size: 14px;
+    letter-spacing: -.3px;
+}
+
+.flagship p,
+.flagship li {
+    font-size: 11.5px;
+}
+
+.flagship p {
+    margin-top: 3px;
+}
+
+.flagship ul {
+    list-style: none;
+    margin-top: 4px;
+}
+
+.flagship li {
+    padding-left: 14px;
+    position: relative;
+    margin-top: 2px;
+}
+
+.flagship li::before {
+    content: "▪";
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .tag {
@@ -221,6 +251,15 @@ section {
     padding: 2px 6px;
     border: var(--hair);
     white-space: nowrap;
+}
+
+/* live product link under the flagship title — visible text so it survives print/ATS */
+.flagship .live-url {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -.2px;
+    margin: 4px 0 5px;
 }
 
 /* ---------- side blocks ---------- */
