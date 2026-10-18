@@ -55,8 +55,8 @@
             pt: "— experimente numa API de teste, sem registo"
         },
         "flagship-intro": {
-            en: "Built solo and shipped to beta: a tool that scans web APIs for security misconfigurations and common vulnerabilities. Own the full stack:",
-            pt: "Construiu sozinho e lançou em beta uma ferramenta que analisa APIs web em busca de configurações de segurança incorretas e vulnerabilidades comuns. Responsável pela stack completa:"
+            en: "Built and shipped to beta: a tool that scans web APIs for security misconfigurations and common vulnerabilities. Own the full stack:",
+            pt: "Construiu e lançou em beta uma ferramenta que analisa APIs web em busca de configurações de segurança incorretas e vulnerabilidades comuns. Responsável pela stack completa:"
         },
         "flagship-li-1": {
             en: "<b>Django / DRF backend</b> with a custom email-based user model and JWT authentication.",
